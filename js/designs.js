@@ -18,9 +18,10 @@ gridSubmit.addEventListener('click', getGridSize);
 
 // Gets color of user selection
 const colorSubmit = document.getElementById('colorPicker');
+let userColor = "";
 
 function changeColor(t) {
-  let userColor = t.value;
+  userColor = t.value;
   console.log(userColor);
 }
 
