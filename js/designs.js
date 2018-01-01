@@ -2,27 +2,23 @@
 const gridSubmit = document.getElementById('submitGrid');
 // var oneRow = document.createElement('tr');
 // var oneCell = document.createElement('td');
+// let tableRowId = `tableRow${i}`;
+// const gridRowNum = document.getElementbyId('tableRow" + i');
 const designGrid = document.getElementById('designCanvas');
-const gridRowNum = document.getElementsByClassName('tableRow');
+
+
 
 function getGridSize() {
   const gridRows = document.getElementById("inputHeight").value;
   const gridCols = document.getElementById("inputWidth").value;
 
   for (let i = 1; i <= gridRows; i++) {
-    designGrid.insertAdjacentHTML('beforeend', '<tr>');
+    aRow = document.createElement('tr');
+    designGrid.appendChild(aRow);
       for (let j = 1; j <= gridCols; j++) {
-        designGrid.insertAdjacentHTML('beforeend', '<td></td>');
+        aRow.insertAdjacentHTML('beforeend', '<td></td>');
       }
-    designGrid.insertAdjacentHTML('beforerend', '</tr>');
-  }
-
-  // TODO Need for loop for these td's
-    // designGrid.insertAdjacentHTML('beforeend', '<td>');
-    // designGrid.insertAdjacentHTML('beforeend', '</td>');
-  // End for loop for td's
-
-}
+} }
 
 gridSubmit.addEventListener ('click', getGridSize)
 
