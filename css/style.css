@@ -55,3 +55,37 @@ p {
 footer.page-footer {
   margin: 0;
 }
+
+h2, p, label {
+  font-family: 'Mukta Malar', sans-serif;
+  font-size: 2rem;
+}
+
+body {
+  font-size: 1rem;
+  font-family: 'Mukta Malar', sans-serif;
+}
+
+h1 {
+  font-family: 'Pacifico', cursive;
+}
+
+input[type=number] {
+  display: inline-block !important;
+  width: 6em;
+}
+
+.button {
+  background-color: #fff;
+  width: 75px;
+  height: 30px;
+}
+
+#designCanvas {
+  margin: 0 auto;
+}
+
+#designCanvas td {
+  border: 1px solid #000;
+  width: 31px;
+}

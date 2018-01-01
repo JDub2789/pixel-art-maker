@@ -2529,7 +2529,6 @@ optgroup {
  */
 table {
   border-collapse: collapse;
-  border-spacing: 0;
 }
 
 td,
@@ -2899,12 +2898,9 @@ ul.staggered-list li {
   background-color: rgba(51, 51, 51, 0.08);
 }
 
-table, th, td {
-  border: none;
-}
+
 
 table {
-  width: 100%;
   display: table;
 }
 
