@@ -28,7 +28,6 @@ function changeColor(t) {
 colorSubmit.addEventListener('onchange', changeColor)
 
 // Colors the designCell
-// TODO - update backgroundColor to user selection
 var clickedCell = document.querySelector('.designCell');
 
 function colorTheSquare(event) {
@@ -38,8 +37,6 @@ function colorTheSquare(event) {
 }
 
 clickedCell.addEventListener('click', colorTheSquare, true);
-
-
 
 // VARIABLES FROM NON-WORKING STATUS
 // var oneRow = document.createElement('tr');
